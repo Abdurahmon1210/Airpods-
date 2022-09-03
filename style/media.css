@@ -1,0 +1,126 @@
+@media(max-width:1220px) {
+    .header__title {
+        background-position: center;
+    }
+}
+@media(max-width:1121px) {
+    .airpods {
+        flex-direction: column;
+        row-gap: 50px;
+    }
+
+    .airpods__item-text {
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:1060px){
+    .iphones{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+    .airpods__big{
+        flex-direction: column;
+        row-gap: 40px;
+    }
+}
+@media(max-width:1060px){
+    .header__title h1{
+        font-size: 60px;
+    }
+    .header__title{
+    }
+}
+@media(max-width:900px){
+    .airpods__item-text{
+        max-width: 260px;
+    }
+    .airpods__left{
+        max-width: 250px;
+    }
+    .airpods__right{
+        max-width: 250px;
+    }
+}
+@media(max-width:530px){
+    .airpods__item{
+        max-width: 300px;
+    }
+    .airpods__center{
+        max-width: 170px;
+    }
+}
+@media(max-width:520px){
+  
+  .header__list{
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;  
+    padding: 20px 20px;
+    backdrop-filter: blur(15px); 
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100%;
+    box-shadow: -4px 0 20px 0px rgba(55, 38, 38, 0.527);
+    z-index: 999;
+    transform: translateX(110%);
+    transition:   0.5s linear;
+}  
+.menu-btn:hover{
+   color: #255784;
+   background: #2196f3;
+   box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+
+  .menu-btn{
+    display: block;
+    color: #2196f3;
+    background: transparent;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 8px;
+    overflow: hidden;
+    transition: 0,2s;
+    margin-left: 10px;
+  }
+  .menu-btn:focus+.header__list{
+    transform: translateX(0%);
+  }
+  .footer__nav{
+    flex-direction: column;
+    row-gap: 15px;
+  }
+  .footer__link{
+    padding-bottom: 20px;
+  }
+  .header__title h1{
+    font-size: 40px;
+  }
+
+}
+@media(max-width:350px){
+    .airpods__item-text p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .airpods__item{
+        max-width: 200px;
+    }
+    .airpods__left p{
+       font-size: 15px;
+       line-height: 30px;
+    }
+    .airpods__right p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .iphone{
+        max-width: 180px;
+    }
+}
+
+
+

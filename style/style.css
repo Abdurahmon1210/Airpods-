@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Montserrat";
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  background-color: #282828;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__list li a {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+  color: #ffffff;
+  margin-left: 30px;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__links {
+  display: flex;
+}
+
+.header__links span {
+  font-size: 20px;
+  color: #fff;
+  display: inline-block;
+}
+
+.header__links span:first-child {
+  margin-right: 25px;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/baner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__title h1 {
+  font-family: "Prosto One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 75px;
+  color: #ffffff;
+  margin-bottom: 38px;
+}
+
+.header__title .header__link {
+  display: inline-block;
+  padding: 13px 14px;
+  background: #ffffff;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #171718;
+}
+.header__title .header__link span {
+  display: inline-block;
+  margin-left: 11px;
+}
+main {
+  padding-top: 30px;
+  padding-bottom: 55px;
+  background: #151515;
+}
+.airpods {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.airpods__item-text {
+  max-width: 540px;
+  width: 100%;
+}
+.airpods__item-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+
+.airpods__item {
+  max-width: 552px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.airpods__big {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 79px;
+}
+.airpods__left,
+.airpods__right {
+  max-width: 333px;
+  width: 100%;
+}
+.airpods__center {
+  max-width: 268px;
+  width: 100%;
+}
+.airpods__left p,
+.airpods__right p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  color: #ffffff;
+}
+.airpods__left p {
+  text-align: right;
+}
+.airpods__big span {
+  display: block;
+  max-width: 61px;
+  width: 100%;
+  height: 1px;
+  background: #c4c4c4;
+}
+.iphones {
+  display: flex;
+  justify-content: space-between;
+}
+.iphone {
+  max-width: 255px;
+  width: 100%;
+  padding: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 6px;
+}
+.iphone h3 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.iphone__img {
+  width: auto;
+}
+.price {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: uppercase;
+  color: #000000;
+  display: inline-block;
+  padding: 10px 0 20px;
+}
+.iphone__link {
+  max-width: 161px;
+  width: 100%;
+  padding: 7px 0;
+  background: #151515;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+.footer {
+  padding: 81px 0;
+  background: #282828;
+}
+.footer__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer__links {
+  display: flex;
+}
+.footer__links span {
+  font-size: 40px;
+  color: #fff;
+}
+.footer__links span:first-child {
+  margin-right: 29px;
+}
+.footer__link{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+  color: #ffffff;
+  margin-left: 30px;
+}
+.footer__list a li{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+  color: #ffffff;
+  margin-left: 30px;
+}
+.menu-btn{
+  display: none;
+}
